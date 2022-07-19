@@ -1690,3 +1690,170 @@ JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 657: Typ
 JavaScript warning: https://pagead2.googlesyndication.com/bg/hAcQ1HJPiWed0xS-2rpeDcqHSonjWYPwT2sC_KX0O-Q.js line 2 > eval line 6227 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/hAcQ1HJPiWed0xS-2rpeDcqHSonjWYPwT2sC_KX0O-Q.js line 2 > eval line 665 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1658252263399	Marionette	INFO	Stopped listening on port 20143
+1658259293470	geckodriver	INFO	Listening on 127.0.0.1:1031
+1658259296507	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1032" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofilen5iYn1"
+1658259296789	Marionette	INFO	Marionette enabled
+1658259296793	Marionette	INFO	Listening on port 1045
+WebDriver BiDi listening on ws://localhost:1032
+Read port: 1045
+1658259296885	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofilen5iYn1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1032/devtools/browser/1d45514a-ca09-47fe-ba83-4a957d92d967
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://consent.youtube.com"
+1658259299832	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-07-19T19:35:00Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T19:35:00Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T19:35:00Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T19:35:00Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+[2022-07-19T19:35:01Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T19:35:01Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T19:35:01Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T19:35:01Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hAcQ1HJPiWed0xS-2rpeDcqHSonjWYPwT2sC_KX0O-Q.js line 2 > eval line 6566 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1658259325750	Marionette	INFO	Stopped listening on port 1045
+1658259393028	geckodriver	INFO	Listening on 127.0.0.1:1158
+1658259396071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1159" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofilezPRnIR"
+1658259396345	Marionette	INFO	Marionette enabled
+1658259396349	Marionette	INFO	Listening on port 1168
+WebDriver BiDi listening on ws://localhost:1159
+Read port: 1168
+1658259396439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofilezPRnIR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1159/devtools/browser/0b551dc4-1969-42d7-971e-4c151f94ac21
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://consent.youtube.com"
+1658259399006	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1658259399136	Marionette	INFO	Stopped listening on port 1168
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1658265398005	geckodriver	INFO	Listening on 127.0.0.1:30669
+1658265401057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "30670" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofilea4hT7n"
+1658265401327	Marionette	INFO	Marionette enabled
+1658265401331	Marionette	INFO	Listening on port 30679
+WebDriver BiDi listening on ws://localhost:30670
+Read port: 30679
+1658265401491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofilea4hT7n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:30670/devtools/browser/031156c7-a1c4-408e-8c7b-7eb5e1f07b55
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://consent.youtube.com"
+1658265404231	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-07-19T21:16:44Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:16:44Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:16:44Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:16:44Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+[2022-07-19T21:16:46Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:16:46Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:16:46Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:16:46Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hAcQ1HJPiWed0xS-2rpeDcqHSonjWYPwT2sC_KX0O-Q.js line 2 > eval line 1855 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1658265427408	Marionette	INFO	Stopped listening on port 30679
+1658265920120	geckodriver	INFO	Listening on 127.0.0.1:1034
+1658265923181	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1035" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofile4Vv1Pw"
+1658265923494	Marionette	INFO	Marionette enabled
+1658265923498	Marionette	INFO	Listening on port 1044
+WebDriver BiDi listening on ws://localhost:1035
+Read port: 1044
+1658265923598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofile4Vv1Pw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1035/devtools/browser/373f324d-58e7-49ab-9eff-80e79cd3e29b
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://consent.youtube.com"
+1658265927507	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-07-19T21:25:27Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:25:27Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:25:27Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:25:27Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+[2022-07-19T21:25:29Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:25:29Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:25:29Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:25:29Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hAcQ1HJPiWed0xS-2rpeDcqHSonjWYPwT2sC_KX0O-Q.js line 2 > eval line 6138 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hAcQ1HJPiWed0xS-2rpeDcqHSonjWYPwT2sC_KX0O-Q.js line 2 > eval line 6589 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1658265950721	Marionette	INFO	Stopped listening on port 1044
+!!! error running onStopped callback: TypeError: callback is not a function
+1658266614010	geckodriver	INFO	Listening on 127.0.0.1:1543
+1658266617052	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1544" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofileddAj5J"
+1658266617312	Marionette	INFO	Marionette enabled
+1658266617316	Marionette	INFO	Listening on port 1553
+WebDriver BiDi listening on ws://localhost:1544
+Read port: 1553
+1658266617485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofileddAj5J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1544/devtools/browser/4925ff90-afbf-41ca-85d2-e4f1545f855d
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://consent.youtube.com"
+1658266620069	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-07-19T21:37:00Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:37:00Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:37:00Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:37:00Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 657: TypeError: this.contentWindow is null
+[2022-07-19T21:37:02Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:37:02Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:37:02Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:37:02Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hAcQ1HJPiWed0xS-2rpeDcqHSonjWYPwT2sC_KX0O-Q.js line 2 > eval line 7304 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hAcQ1HJPiWed0xS-2rpeDcqHSonjWYPwT2sC_KX0O-Q.js line 2 > eval line 2267 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1658266640055	Marionette	INFO	Stopped listening on port 1553
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 4004, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1658267482842	geckodriver	INFO	Listening on 127.0.0.1:1869
+1658267485885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1870" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofile8ieP9J"
+1658267486178	Marionette	INFO	Marionette enabled
+1658267486182	Marionette	INFO	Listening on port 1882
+WebDriver BiDi listening on ws://localhost:1870
+Read port: 1882
+1658267486270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofile8ieP9J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1870/devtools/browser/d510ecec-bbf3-42eb-963c-61ec9a2d183b
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://consent.youtube.com"
+1658267489025	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-07-19T21:51:29Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:51:29Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:51:29Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:51:29Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+[2022-07-19T21:51:30Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:51:30Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:51:30Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:51:30Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hAcQ1HJPiWed0xS-2rpeDcqHSonjWYPwT2sC_KX0O-Q.js line 2 > eval line 5124 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1658267499160	Marionette	INFO	Stopped listening on port 1882
+1658267570723	geckodriver	INFO	Listening on 127.0.0.1:1977
+1658267573755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1978" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofile3BekKA"
+1658267574035	Marionette	INFO	Marionette enabled
+1658267574039	Marionette	INFO	Listening on port 1987
+WebDriver BiDi listening on ws://localhost:1978
+Read port: 1987
+1658267574148	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofile3BekKA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1978/devtools/browser/c6c0afe4-162a-4073-b17d-8c4ac825dfd3
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://consent.youtube.com"
+1658267576894	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-07-19T21:52:57Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:52:57Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:52:57Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:52:57Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 657: TypeError: this.contentWindow is null
+[2022-07-19T21:52:59Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:52:59Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:52:59Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2022-07-19T21:52:59Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hAcQ1HJPiWed0xS-2rpeDcqHSonjWYPwT2sC_KX0O-Q.js line 2 > eval line 3908 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hAcQ1HJPiWed0xS-2rpeDcqHSonjWYPwT2sC_KX0O-Q.js line 2 > eval line 5193 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1658267597157	Marionette	INFO	Stopped listening on port 1987
+1658267606882	geckodriver	INFO	Listening on 127.0.0.1:2071
+1658267609920	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2072" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofile1g4qK5"
+1658267610172	Marionette	INFO	Marionette enabled
+1658267610175	Marionette	INFO	Listening on port 2081
+WebDriver BiDi listening on ws://localhost:2072
+Read port: 2081
+1658267610347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lflop\\AppData\\Local\\Temp\\rust_mozprofile1g4qK5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2072/devtools/browser/36c12e4a-d900-42f5-a443-f2dc864a987f
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://consent.youtube.com"
+1658267612696	Marionette	INFO	Stopped listening on port 2081
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
