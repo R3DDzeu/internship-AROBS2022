@@ -1,6 +1,8 @@
 import os
 import time
 
+#------------------------------------------- can be ignored, varianta primitiva de cod----------------------------------------
+
 def start():
     with open('start_obs.txt', 'w') as f:
          f.write('@echo off \n cd "C:\Program Files\obs-studio\\bin\\64bit\  \n start obs64.exe \n exit') #a se modifica 64 cu 32, dupa caz

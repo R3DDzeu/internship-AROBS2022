@@ -26,16 +26,17 @@ def measure_wav_db_level(wavFile):
     t = (np.array(x)).astype(np.float64)
     # x holds the int16 data, but it's hard to work on int16
     # t holds the float64 conversion
-    print(wavFile)
-    print(str(fs) + ' Hz')
-    print(str(len(t) / fs) + ' s')
+    #print(wavFile)
+    #print(str(fs) + ' Hz')
+    #print(str(len(t) / fs) + ' s')
     orig_SPL = 20*np.log10(rms_flat(t)) - LOG_SCALE
-    print('Sound level:   ' + str(orig_SPL) + ' dBFS')
+    with open('nivel_sunet.txt', 'w') as f:
+        f.write('Nivelul sunetului:   ' + str(orig_SPL) + ' dB')
+    print('Sunet analizat cu succes')
     return orig_SPL
-
-
 
 if len(sys.argv) == 2:
     filename = sys.argv[1]
 else:
     filename = 'output.wav'
+

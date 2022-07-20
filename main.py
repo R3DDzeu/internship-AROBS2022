@@ -1,24 +1,34 @@
 import webbrowser
 import logging
 import datetime
+logging.basicConfig(level=logging.DEBUG, filename=f'log_main_debug{datetime.datetime.now().strftime(" %d %m %Y %H-%M-%S")}.txt')
 import startobs
 import time
 import obsrecorder
 import moviepy.editor as mp
 import conversie
-logging.basicConfig(level=logging.DEBUG, filename=f'log{datetime.datetime.now().strftime(" %d %m %Y %H-%M-%S")}.txt')
-#log-ul va fi denumit dupa data,ora si secunda pentru a nu avea erori din cauza mai multor log-uri cu acelasi nume
+import startobspy
+import analizaaudio
+import traceback
 
 if __name__ == '__main__':
-    startobs.start()
-    time.sleep(5)
-    obsrecorder.startrec()
-           #webbrowser.navigator()
-           #locv = obsrecorder.getPth2()   #path-ul fisierului video
-    time.sleep(5)
-            #videotoaudio = mp.VideoFileClip(locv)
-            #videotoaudio.audio.write_audiofile(r"de_analizat.wav")
-    conversie.cnv()
+    try:
+        startobspy.start()
+        #startobs.start()  -------------------------- Varianta primitiva (functionala) de a depasi eroarea la pornirea OBS-ului (intai trebuie accest dir-ul)
+        time.sleep(5)
+        obsrecorder.startrec()
+        #webbrowser.navigator()
+        time.sleep(5)
+        conversie.cnv()
+        analizaaudio.measure_wav_db_level("de_analizat.wav")
+    except:
+        with open(f'exceptions{datetime.datetime.now().strftime(" %d %m %Y %H-%M-%S")}.log', "w") as logfile:
+            traceback.print_exc(file=logfile)
+            print('A fost intampinata o eroare! Verifica exceptions.log !')
+            exit()
+
+
+
 
 
 

@@ -1,7 +1,6 @@
-import logging
-logging.basicConfig(level=logging.DEBUG)
 import asyncio
 import simpleobsws
+import webbrowser
 
 pth2 = None
 parameters = simpleobsws.IdentificationParameters(ignoreNonFatalRequestChecks = False) # Create an IdentificationParameters object (optional for connecting)
@@ -18,6 +17,7 @@ async def make_request():
     request2 = simpleobsws.Request('StopRecord')
 
     ret = await ws.call(request) # Perform the request
+    webbrowser.navigator()
     await asyncio.sleep(20)
     ret2 = await ws.call(request2)
     if ret.ok(): # Check if the request succeeded
@@ -27,7 +27,7 @@ async def make_request():
 
     if 'outputPath' in ret2.responseData:
         pth = ret2.responseData['outputPath']
-        if ".mov" in pth:
+        if ".mov" in pth:    # se testeaza daca fisierul contine extensia mov pentru a-i salva locatia pentru a fi folosita de catre scriptul care extrage audio
             pth2=pth
     await ws.disconnect() # Disconnect from the websocket server cleanly
 
@@ -35,13 +35,6 @@ def startrec():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(make_request())
 
-def getPth2():
+def getPth2():  #getter pentru locatia inregistrarii
     global pth2
     return pth2
-
-
-
-#conversie  + analiza audio
-#estetica
-#update documentatie OBS !!!!!!!!! + comentarii
-# pip install pip install ffmpeg moviepy in documentatie !!!!!!! (pentru conversie)
