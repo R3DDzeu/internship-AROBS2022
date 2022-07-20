@@ -1,23 +1,24 @@
+import webbrowser
 import logging
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.webdriver import WebDriver
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium. webdriver.common.keys import Keys
+import datetime
+import startobs
 import time
+import obsrecorder
+import moviepy.editor as mp
+import conversie
+logging.basicConfig(level=logging.DEBUG, filename=f'log{datetime.datetime.now().strftime(" %d %m %Y %H-%M-%S")}.txt')
+#log-ul va fi denumit dupa data,ora si secunda pentru a nu avea erori din cauza mai multor log-uri cu acelasi nume
 
-logging.basicConfig(filename="log.txt",
-                    level=logging.DEBUG,
-                    format="%(asctime)s:%(levelname)s:%(message)ss",
-                    )
+if __name__ == '__main__':
+    startobs.start()
+    time.sleep(5)
+    obsrecorder.startrec()
+           #webbrowser.navigator()
+           #locv = obsrecorder.getPth2()   #path-ul fisierului video
+    time.sleep(5)
+            #videotoaudio = mp.VideoFileClip(locv)
+            #videotoaudio.audio.write_audiofile(r"de_analizat.wav")
+    conversie.cnv()
 
-
-
-browser: WebDriver = webdriver.Firefox()
-browser.get('https://www.youtube.com/c/Fireship') #pentru a accepta cookies-urile mai usor, am ales sa evit iframeul, folosind link-ul unui canal oarecare
-browser.find_element(By.XPATH, "/html/body/c-wiz/div/div/div/div[2]/div[1]/div[3]/div[1]/form[2]/div/div/button/span").click()
-browser.find_element(By.XPATH, '/html/body/ytd-app/div/div/ytd-masthead/div[3]/div[2]/ytd-searchbox/form/div/div[1]/input').send_keys('dQw4w9WgXcQ' + Keys.RETURN)
-WebDriverWait(browser, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR,"a[title='Rick Astley - Never Gonna Give You Up (Official Music Video)']"))).click()
 
 

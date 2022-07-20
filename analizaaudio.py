@@ -3,7 +3,6 @@ import numpy as np
 from scipy.io import wavfile
 import soundfile as sf
 
-
 def rms_flat(a):  # from matplotlib.mlab
     """
     Return the root mean square of all the elements of *a*, flattened out.
