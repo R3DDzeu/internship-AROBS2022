@@ -23,6 +23,7 @@ Python : v3.10.5
 # How to set-up the environment
 - Install Python 3.10.5 <br>
 - Set-up the PATH  by adding C:\Program Files\Git\bin and C:\Program Files\Git\cmd\ to your System Environment Variables <br>
+- Run 'set-executionpolicy remotesigned ' in Windows Powershell 
 - Install PIP by executing 'python get-pip.py' inside Windows Terminal  <br>
 - Install SeleniumAPI using 'pip install -U selenium' . Selenium will require a different driver depending on your browser. The drivers can be found here https://selenium-python.readthedocs.io/installation.html#drivers and you can install it them by copying the .exe driver specific to your browser to Python's installation folder or to PATH.<br>
 - Install the required packages using 'pip install  numpy pipwin opencv-python pyautogui simpleobsws ffmpeg moviepy scipy soundfile' <br>
