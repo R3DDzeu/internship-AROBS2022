@@ -12,4 +12,4 @@ def navigator():
     browser.find_element(By.XPATH, '/html/body/ytd-app/div/div/ytd-masthead/div[3]/div[2]/ytd-searchbox/form/div/div[1]/input').send_keys('dQw4w9WgXcQ' + Keys.RETURN)
     WebDriverWait(browser, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR,"a[title='Rick Astley - Never Gonna Give You Up (Official Music Video)']"))).click()
 
-    #este apelat in obsrecorder!!!
+    #este apelat in obsrecorder!
