@@ -5,8 +5,16 @@ It will also save the recording as a '.mov' file inside the default OBS output d
 File->Settings->Output and inserting your preffered path. This is not mandatory as the script will automatically get the video's path after the recording is over.<br><br>
 It will also create a .wav file ( which is the extracted audio from the video recording ) and a nivel_sunet.txt file which will tell you the sound level in dBs.
 The repository also includes a file called 'startobs.py' which is just an alternative to 'startobspy.py'. It is not used, but it's functional.<br><br>
+**To run the script, execute main.py**
 
-- To run the script you have to run main.py.
+# Files Description
+
+- 'main.py' - runs the script <br>
+- 'startobspy.py' - starts OBS<br>
+- 'webbrowser.py' - starts FireFox and navigates to the YouTube video<br>
+- 'obsrecorder.py' - records a video of 120 seconds<br>
+- 'conversie.py' - extracts the audio to a '.wav' file<br>
+- 'analizaaudio.py' - gets the sound level expressed in dBs<br>
 
 # System & Python Information
 OS : Microsoft Windows 10 pro, V 10.0.19044 Build 19044 <br>
