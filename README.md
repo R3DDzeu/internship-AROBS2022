@@ -1,5 +1,10 @@
 # Script Description
-This script will use SeleniumAPI and OBS to play an youtube video and record the desktop for 2 minutes. It will also create debug logs which will contain the exact time of running the script in their name and exception logs in case they happen. The repository also includes a file called 'startobs.py' which is just an alternative to 'startobspy.py'. It is not used, but it's functional.<br>
+This script will use SeleniumAPI and OBS to play an youtube video and record the desktop for 2 minutes.<br><br>
+It will create debug logs which will contain the exact time of running the script in their name and exception logs in case they happen.<br><br>
+It will also save the recording as a '.mov' file inside the default OBS output directory (usually your Videos folder). You can change that in OBS settings by accesing
+File->Settings->Output and inserting your preffered path. This is not mandatory as the script will automatically get the video's path after the recording is over.<br><br>
+It will also create a .wav file ( which is the extracted audio from the video recording ) and a nivel_sunet.txt file which will tell you the sound level in dBs.
+The repository also includes a file called 'startobs.py' which is just an alternative to 'startobspy.py'. It is not used, but it's functional.<br><br>
 
 - To run the script you have to run main.py.
 
@@ -30,4 +35,5 @@ Python : v3.10.5
 - Next, go to File in the left upper corner, select Settings->Output . Here you will modify the Recording format from .mkv to .mov and click apply . <br>
 - Go to Tools->Scritps->Python and insert Python's installation folder.
 - Finally, go to Tools->web-socket settings and modify the port to 4444 and the password to "secret" so you will not have to change them inside the script when it will connect to the OBS websocket. 
+- **!! NOT MANDATORY !!** if you want, you can change the video's output destination to current's project folder path by accesing File->Settings->Output and inserting your custom project path so you can have all the files in one place. 
 
