@@ -18,7 +18,7 @@ async def make_request():
 
     ret = await ws.call(request) # Perform the request
     webbrowser.navigator()
-    await asyncio.sleep(20)
+    await asyncio.sleep(120)
     ret2 = await ws.call(request2)
     if ret.ok(): # Check if the request succeeded
         print("Request succeeded! Response data: {}".format(ret.responseData))
