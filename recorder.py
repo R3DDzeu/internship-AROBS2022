@@ -11,4 +11,4 @@ os.rename(text,bat)
 
 os.startfile("start_obs.bat")
 time.sleep(5)
-os.remove("start_obs.bat") #daca nu l stergem nu mai merge codu
+os.remove("start_obs.bat") 
